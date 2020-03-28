@@ -4,11 +4,11 @@ const Rectangle = require('../Rectangle');
 describe('isSquare', () => {
     it('send back true if a equal b', () => {
         const rectangle = new Rectangle(3, 3);
-        assert.strictEqual(this.a === this.b, true);
+        assert.strictEqual(rectangle.isSquare, true);
     });
     it('send back false if a not equal b', () => {
         const rectangle = new Rectangle(4, 6);
-        assert.strictEqual(this.a !== this.b, false);
+        assert.strictEqual(rectangle.isSquare, false);
     });
 });
 

@@ -5,7 +5,7 @@ class Rectangle {
       this.b = b;
     }
   
-    isSquare() {
+    get isSquare() {
       return this.a === this.b;
     }
   
