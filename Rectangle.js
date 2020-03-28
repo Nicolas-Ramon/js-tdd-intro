@@ -6,7 +6,7 @@ class Rectangle {
     }
   
     isSquare() {
-  
+      return this.a === this.b;
     }
   
     get getArea() {

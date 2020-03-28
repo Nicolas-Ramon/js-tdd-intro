@@ -22,4 +22,4 @@ function capitalizeFirstLetters(input) {
 
 module.exports = capitalizeFirstLetters;
 
-console.log(capitalizeFirstLetters(`je suis un robot sympa, mais j'aime bien voyager`))
+// console.log(capitalizeFirstLetters(`je suis un robot sympa, mais j'aime bien voyager`))
