@@ -9,12 +9,14 @@ class Rectangle {
   
     }
   
-    getArea() {
-  
+    get getArea() {
+      let area = (this.a * this.b);
+      return area;
     }
   
-    getPerimeter() {
-  
+    get getPerimeter() {
+      let perimeter = (this.a*2) + (this.b*2);
+      return perimeter;
     }
   }
   

@@ -15,13 +15,13 @@ describe('isSquare', () => {
 describe('getArea', () => {
     it('send back the right area', () => {
         const rectangle = new Rectangle(5, 5);
-        assert.strictEqual(getArea, 25);
+        assert.strictEqual(rectangle.getArea, 25);
     });
 });
 
 describe('getPerimeter', () => {
     it('send back the right perimeter', () => {
         const rectangle = new Rectangle(3, 7);
-        assert.strictEqual(getPerimeter, 20);
+        assert.strictEqual(rectangle.getPerimeter, 20);
     });
 });
